@@ -1,0 +1,83 @@
+
+body {
+  /*padding-left: 80px;*/
+  font-family: Arial, Georgia, "Times New Roman",
+        Times, serif;
+  color: blue;
+  background-color: #F0F0F0; 
+}
+
+ul.navbar {
+  list-style-type: none;
+}
+
+li {
+display:inline;
+}
+
+li.base a { 
+float:left;
+width:100px;
+text-decoration:none;
+color:black;
+font-weight:bold;
+background:#dddddd;
+padding:10px;
+border-right:1px solid #000000;
+}
+
+li.act a { 
+float:left;
+width:100px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+background:#666666;
+padding:10px;
+border-right:1px solid #000000;
+}
+
+li.work a { 
+background-image: url(ikonivaalea2.png);
+float:left;
+height:150px;
+width:225px;
+text-decoration:none;
+color:black;
+font-weight:bold;
+/*background:#e8e8e8;*/
+padding:10px;
+border-right:12px solid #FFFFFF;
+}
+
+ul.navbar a:hover {
+color:white;
+/*background:#888888;*/
+background-image: url(ikonitumma2.png);
+}
+
+h1 {  
+  text-indent: 1.2em;
+  float:left;
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif 
+
+}
+/*
+ul.navbar li {
+  background: white;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid black
+}
+*/
+ul.navbar a {
+  text-decoration: none 
+}
+
+img {
+  border-style:none;
+}
+
+
+
